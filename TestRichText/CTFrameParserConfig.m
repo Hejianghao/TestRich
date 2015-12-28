@@ -13,7 +13,7 @@
 - (id) init {
     self = [super init];
     if ( self) {
-        _width = SCREENWIDTH;
+        _width = SCREENWIDTH - 20.f;
         _fontSize = 16.0f;
         _lineSpace = 8.0f;
         _textColor = UIColorFromRGB(0x00CED1);
