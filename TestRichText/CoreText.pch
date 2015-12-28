@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  CoreText
+//
+//  Created by Johannes on 15/12/27.
+//  Copyright © 2015年 何江浩. All rights reserved.
+//
+
+#ifdef DEBUG
+#define debugLog(...) NSLog(__VA_ARGS__) //可变参数的宏
+#define debugMethod()    NSLog(@"%s"_func_) //打印参数
+#else
+#define debugLog(...)
+#define debugMethod()
+#endif
+
+#define UIColorFromRGB(rgbColor) [UIColor \
+colorWithRed:(CGFloat)((rgbColor & 0xFF0000) >> 16)/255.0 \
+green:(CGFloat)((rgbColor & 0x00FF00) >> 8)/255.0 \
+blue:(CGFloat)(rgbColor & 0x0000FF)/255.0 \
+alpha:1.0];
+
+#ifdef __OBJC__
+    #import <UIKit/UIkit.h>
+#endif
+
+#define SCREENWIDTH [[UIScreen mainScreen] bounds].size.width

@@ -13,6 +13,12 @@
 		C5B9231D1C31384A00EB7B13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B9231B1C31384A00EB7B13 /* Main.storyboard */; };
 		C5B9231F1C31384A00EB7B13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B9231E1C31384A00EB7B13 /* Assets.xcassets */; };
 		C5B923221C31384A00EB7B13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B923201C31384A00EB7B13 /* LaunchScreen.storyboard */; };
+		C5B923311C31396700EB7B13 /* CoreTextData.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B9232A1C31396700EB7B13 /* CoreTextData.m */; };
+		C5B923321C31396700EB7B13 /* CTDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B9232C1C31396700EB7B13 /* CTDisplayView.m */; };
+		C5B923331C31396700EB7B13 /* CTFrameParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B9232E1C31396700EB7B13 /* CTFrameParser.m */; };
+		C5B923341C31396700EB7B13 /* CTFrameParserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B923301C31396700EB7B13 /* CTFrameParserConfig.m */; };
+		C5B923361C31397700EB7B13 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B923351C31397700EB7B13 /* CoreText.framework */; };
+		C5B923391C31469300EB7B13 /* file.txt in Sources */ = {isa = PBXBuildFile; fileRef = C5B923381C31469300EB7B13 /* file.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,17 @@
 		C5B9231E1C31384A00EB7B13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5B923211C31384A00EB7B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5B923231C31384A00EB7B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B923291C31396700EB7B13 /* CoreTextData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextData.h; sourceTree = "<group>"; };
+		C5B9232A1C31396700EB7B13 /* CoreTextData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextData.m; sourceTree = "<group>"; };
+		C5B9232B1C31396700EB7B13 /* CTDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDisplayView.h; sourceTree = "<group>"; };
+		C5B9232C1C31396700EB7B13 /* CTDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDisplayView.m; sourceTree = "<group>"; };
+		C5B9232D1C31396700EB7B13 /* CTFrameParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFrameParser.h; sourceTree = "<group>"; };
+		C5B9232E1C31396700EB7B13 /* CTFrameParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFrameParser.m; sourceTree = "<group>"; };
+		C5B9232F1C31396700EB7B13 /* CTFrameParserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFrameParserConfig.h; sourceTree = "<group>"; };
+		C5B923301C31396700EB7B13 /* CTFrameParserConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFrameParserConfig.m; sourceTree = "<group>"; };
+		C5B923351C31397700EB7B13 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C5B923371C31399A00EB7B13 /* CoreText.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreText.pch; sourceTree = "<group>"; };
+		C5B923381C31469300EB7B13 /* file.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5B923361C31397700EB7B13 /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +60,7 @@
 		C5B923061C31384A00EB7B13 = {
 			isa = PBXGroup;
 			children = (
+				C5B923351C31397700EB7B13 /* CoreText.framework */,
 				C5B923111C31384A00EB7B13 /* TestRichText */,
 				C5B923101C31384A00EB7B13 /* Products */,
 			);
@@ -58,6 +77,14 @@
 		C5B923111C31384A00EB7B13 /* TestRichText */ = {
 			isa = PBXGroup;
 			children = (
+				C5B923291C31396700EB7B13 /* CoreTextData.h */,
+				C5B9232A1C31396700EB7B13 /* CoreTextData.m */,
+				C5B9232B1C31396700EB7B13 /* CTDisplayView.h */,
+				C5B9232C1C31396700EB7B13 /* CTDisplayView.m */,
+				C5B9232D1C31396700EB7B13 /* CTFrameParser.h */,
+				C5B9232E1C31396700EB7B13 /* CTFrameParser.m */,
+				C5B9232F1C31396700EB7B13 /* CTFrameParserConfig.h */,
+				C5B923301C31396700EB7B13 /* CTFrameParserConfig.m */,
 				C5B923151C31384A00EB7B13 /* AppDelegate.h */,
 				C5B923161C31384A00EB7B13 /* AppDelegate.m */,
 				C5B923181C31384A00EB7B13 /* ViewController.h */,
@@ -67,6 +94,7 @@
 				C5B923201C31384A00EB7B13 /* LaunchScreen.storyboard */,
 				C5B923231C31384A00EB7B13 /* Info.plist */,
 				C5B923121C31384A00EB7B13 /* Supporting Files */,
+				C5B923381C31469300EB7B13 /* file.txt */,
 			);
 			path = TestRichText;
 			sourceTree = "<group>";
@@ -74,6 +102,7 @@
 		C5B923121C31384A00EB7B13 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C5B923371C31399A00EB7B13 /* CoreText.pch */,
 				C5B923131C31384A00EB7B13 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -150,8 +179,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5B9231A1C31384A00EB7B13 /* ViewController.m in Sources */,
+				C5B923321C31396700EB7B13 /* CTDisplayView.m in Sources */,
+				C5B923311C31396700EB7B13 /* CoreTextData.m in Sources */,
 				C5B923171C31384A00EB7B13 /* AppDelegate.m in Sources */,
+				C5B923391C31469300EB7B13 /* file.txt in Sources */,
 				C5B923141C31384A00EB7B13 /* main.m in Sources */,
+				C5B923341C31396700EB7B13 /* CTFrameParserConfig.m in Sources */,
+				C5B923331C31396700EB7B13 /* CTFrameParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +297,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TestRichText/CoreText.pch";
 				INFOPLIST_FILE = TestRichText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thel.coreText.TestRichText;
@@ -274,6 +311,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TestRichText/CoreText.pch";
 				INFOPLIST_FILE = TestRichText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thel.coreText.TestRichText;

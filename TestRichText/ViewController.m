@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "CTFrameParser.h"
+#import "CTDisplayView.h"
 
 @interface ViewController ()
 
@@ -17,6 +19,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    CTFrameParserConfig *config = [[CTFrameParserConfig alloc] init];
+    
+    
+    CoreTextData *coreText = [CTFrameParser parseTemplateFile:[[NSBundle mainBundle] pathForResource:@"file" ofType:@"txt"] config:config];
+    
+    CTDisplayView *view = [[CTDisplayView alloc] initWithFrame:CGRectMake(20.f, 20.f, SCREENWIDTH - 20.f, coreText.height + 20.f)];
+    
+    view.backgroundColor = [UIColor clearColor];
+    view.data = coreText;
+    [self.view addSubview:view];
 }
 
 - (void)didReceiveMemoryWarning {
