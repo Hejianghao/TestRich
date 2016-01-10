@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F2FC4F81C423FB20001C9C3 /* CoreTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2FC4F71C423FB20001C9C3 /* CoreTextCell.m */; };
+		8F2FC4FB1C4241450001C9C3 /* CoreTextTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2FC4FA1C4241450001C9C3 /* CoreTextTableViewController.m */; };
+		8F2FC4FE1C425C3E0001C9C3 /* CoreTextLinkData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2FC4FD1C425C3E0001C9C3 /* CoreTextLinkData.m */; };
+		8F2FC5011C425F330001C9C3 /* CoreTextUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2FC5001C425F330001C9C3 /* CoreTextUtils.m */; };
 		8FD8A3131C318A27001F5403 /* file.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8FD8A3121C318A27001F5403 /* file.txt */; };
+		8FD8A3161C32E37A001F5403 /* CoreTextImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD8A3151C32E37A001F5403 /* CoreTextImageData.m */; };
+		8FD8A3181C32FC12001F5403 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FD8A3171C32FC12001F5403 /* 2.jpg */; };
 		C5B923141C31384A00EB7B13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B923131C31384A00EB7B13 /* main.m */; };
 		C5B923171C31384A00EB7B13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B923161C31384A00EB7B13 /* AppDelegate.m */; };
 		C5B9231A1C31384A00EB7B13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B923191C31384A00EB7B13 /* ViewController.m */; };
@@ -22,7 +28,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F2FC4F61C423FB20001C9C3 /* CoreTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextCell.h; sourceTree = "<group>"; };
+		8F2FC4F71C423FB20001C9C3 /* CoreTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextCell.m; sourceTree = "<group>"; };
+		8F2FC4F91C4241450001C9C3 /* CoreTextTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextTableViewController.h; sourceTree = "<group>"; };
+		8F2FC4FA1C4241450001C9C3 /* CoreTextTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextTableViewController.m; sourceTree = "<group>"; };
+		8F2FC4FC1C425C3E0001C9C3 /* CoreTextLinkData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextLinkData.h; sourceTree = "<group>"; };
+		8F2FC4FD1C425C3E0001C9C3 /* CoreTextLinkData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextLinkData.m; sourceTree = "<group>"; };
+		8F2FC4FF1C425F330001C9C3 /* CoreTextUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextUtils.h; sourceTree = "<group>"; };
+		8F2FC5001C425F330001C9C3 /* CoreTextUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextUtils.m; sourceTree = "<group>"; };
 		8FD8A3121C318A27001F5403 /* file.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file.txt; sourceTree = "<group>"; };
+		8FD8A3141C32E37A001F5403 /* CoreTextImageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextImageData.h; sourceTree = "<group>"; };
+		8FD8A3151C32E37A001F5403 /* CoreTextImageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextImageData.m; sourceTree = "<group>"; };
+		8FD8A3171C32FC12001F5403 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		C5B9230F1C31384A00EB7B13 /* TestRichText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRichText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5B923131C31384A00EB7B13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5B923151C31384A00EB7B13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -77,6 +94,8 @@
 		C5B923111C31384A00EB7B13 /* TestRichText */ = {
 			isa = PBXGroup;
 			children = (
+				8FD8A3141C32E37A001F5403 /* CoreTextImageData.h */,
+				8FD8A3151C32E37A001F5403 /* CoreTextImageData.m */,
 				C5B923291C31396700EB7B13 /* CoreTextData.h */,
 				C5B9232A1C31396700EB7B13 /* CoreTextData.m */,
 				C5B9232B1C31396700EB7B13 /* CTDisplayView.h */,
@@ -89,12 +108,21 @@
 				C5B923161C31384A00EB7B13 /* AppDelegate.m */,
 				C5B923181C31384A00EB7B13 /* ViewController.h */,
 				C5B923191C31384A00EB7B13 /* ViewController.m */,
+				8F2FC4F61C423FB20001C9C3 /* CoreTextCell.h */,
+				8F2FC4F71C423FB20001C9C3 /* CoreTextCell.m */,
 				C5B9231B1C31384A00EB7B13 /* Main.storyboard */,
 				C5B9231E1C31384A00EB7B13 /* Assets.xcassets */,
 				C5B923201C31384A00EB7B13 /* LaunchScreen.storyboard */,
+				8FD8A3171C32FC12001F5403 /* 2.jpg */,
 				C5B923231C31384A00EB7B13 /* Info.plist */,
 				8FD8A3121C318A27001F5403 /* file.txt */,
 				C5B923121C31384A00EB7B13 /* Supporting Files */,
+				8F2FC4F91C4241450001C9C3 /* CoreTextTableViewController.h */,
+				8F2FC4FA1C4241450001C9C3 /* CoreTextTableViewController.m */,
+				8F2FC4FC1C425C3E0001C9C3 /* CoreTextLinkData.h */,
+				8F2FC4FD1C425C3E0001C9C3 /* CoreTextLinkData.m */,
+				8F2FC4FF1C425F330001C9C3 /* CoreTextUtils.h */,
+				8F2FC5001C425F330001C9C3 /* CoreTextUtils.m */,
 			);
 			path = TestRichText;
 			sourceTree = "<group>";
@@ -167,6 +195,7 @@
 			files = (
 				C5B923221C31384A00EB7B13 /* LaunchScreen.storyboard in Resources */,
 				C5B9231F1C31384A00EB7B13 /* Assets.xcassets in Resources */,
+				8FD8A3181C32FC12001F5403 /* 2.jpg in Resources */,
 				8FD8A3131C318A27001F5403 /* file.txt in Resources */,
 				C5B9231D1C31384A00EB7B13 /* Main.storyboard in Resources */,
 			);
@@ -180,9 +209,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5B9231A1C31384A00EB7B13 /* ViewController.m in Sources */,
+				8F2FC5011C425F330001C9C3 /* CoreTextUtils.m in Sources */,
+				8F2FC4FE1C425C3E0001C9C3 /* CoreTextLinkData.m in Sources */,
+				8FD8A3161C32E37A001F5403 /* CoreTextImageData.m in Sources */,
 				C5B923321C31396700EB7B13 /* CTDisplayView.m in Sources */,
 				C5B923311C31396700EB7B13 /* CoreTextData.m in Sources */,
 				C5B923171C31384A00EB7B13 /* AppDelegate.m in Sources */,
+				8F2FC4FB1C4241450001C9C3 /* CoreTextTableViewController.m in Sources */,
+				8F2FC4F81C423FB20001C9C3 /* CoreTextCell.m in Sources */,
 				C5B923141C31384A00EB7B13 /* main.m in Sources */,
 				C5B923341C31396700EB7B13 /* CTFrameParserConfig.m in Sources */,
 				C5B923331C31396700EB7B13 /* CTFrameParser.m in Sources */,

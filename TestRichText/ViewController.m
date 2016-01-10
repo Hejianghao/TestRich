@@ -21,7 +21,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     CTFrameParserConfig *config = [[CTFrameParserConfig alloc] init];
-    debugLog(@"%@",[[NSBundle mainBundle] pathForResource:@"Info" ofType:@"plist"]);
+    debugLog(@"%@",[[NSBundle mainBundle] pathForResource:@"file" ofType:@"txt"]);
     
     CoreTextData *coreText = [CTFrameParser parseTemplateFile:[[NSBundle mainBundle] pathForResource:@"file" ofType:@"txt"] config:config];
     
